@@ -39,8 +39,9 @@ function retornaMaiorNumero(array) {
 
 // EXERCÍCIO 05
 function retornaQuantidadeElementos(array) {
-  
+return array.length
 }
+retornaQuantidadeElementos()
 
 // EXERCÍCIO 06
 function retornaExpressoesBooleanas() {
