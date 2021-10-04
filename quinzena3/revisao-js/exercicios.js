@@ -22,8 +22,15 @@ retornaNumerosParesElevadosADois()
 
 // EXERCÍCIO 03
 function retornaNumerosPares(array) {
-
+  let listaDeNumerosPares = []
+  for (let item of array){
+  if(item % 2 === 0){
+    listaDeNumerosPares.push(item)
+  } 
+  }
+  return listaDeNumerosPares
 }
+retornaNumerosPares()
 
 // EXERCÍCIO 04
 function retornaMaiorNumero(array) {
