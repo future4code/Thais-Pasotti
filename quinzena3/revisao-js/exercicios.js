@@ -9,8 +9,16 @@ function inverteArray(array) {
 
 // EXERCÍCIO 02
 function retornaNumerosParesElevadosADois(array) {
-
+  let listaNumerosParesAdois = []
+  for(let valor of array){
+    if(valor % 2 === 0){
+      listaNumerosParesAdois.push(valor ** 2)
+    }
+  }
+  return listaNumerosParesAdois
 }
+
+retornaNumerosParesElevadosADois()
 
 // EXERCÍCIO 03
 function retornaNumerosPares(array) {
