@@ -46,6 +46,11 @@ retornaQuantidadeElementos()
 
 // EXERCÍCIO 06
 function retornaExpressoesBooleanas() {
+  const booleano1 = true
+  const booleano2 = false
+  const booleano3 = !booleano2 
+  const booleano4 = !booleano3
+
 
 }
 
@@ -56,10 +61,13 @@ function retornaNNumerosPares(n) {
 
 // EXERCÍCIO 08
 function checaTriangulo(a, b, c) {
-  // return 'Escaleno'
-  // return 'Equilátero'
-  // return 'Isósceles'
-}
+  if (a === b && b === c){
+    return "Equilátero"
+  } else if (a !== b  && b !== c){
+  return "Escaleno"
+} else {
+  return "Isósceles"
+}}
 
 // EXERCÍCIO 09
 function comparaDoisNumeros(num1, num2) {
