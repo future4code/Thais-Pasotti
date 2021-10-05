@@ -1,7 +1,7 @@
 // EXERCÍCIO 01
 function inverteArray(array) {
   let retorna = []
-  for(let i = array.length-1; i >= 0; i--){
+  for(let i = array.length-1; i >= 0; i--){ // array.length -1 representa o início pela última posição do array; o array vai parar quando i chegar no 0; ele vai de forma descrescente
     retorna.push(array[i])
   }
   return retorna
@@ -171,7 +171,15 @@ return pessoa
 
 // EXERCÍCIO 16A
 function maioresDe18(arrayDePessoas) {
+let maioresDeIdade = []
 
+for(let adulto of arrayDePessoas) {
+    if (adulto.idade >= 18) {
+      maioresDeIdade.push(adulto)
+    }
+    
+  }
+  return maioresDeIdade
 }
 
 // EXERCÍCIO 16B
