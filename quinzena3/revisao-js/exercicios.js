@@ -50,8 +50,21 @@ return array.length
 
 // EXERCÍCIO 06
 function retornaExpressoesBooleanas() {
-const respostas = [false, false, true, true, true]
-return respostas
+let arrayBooleanos = []
+ const booleano1 = true
+ const booleano2 = false
+ const booleano3 = !booleano2 
+ const booleano4 = !booleano3 
+
+ const condicao1 = booleano1 && booleano2 && !booleano4
+ const condicao2 = (booleano1 && booleano2) || !booleano3 
+ const condicao3 = (booleano2 || booleano3) && (booleano4 || booleano1)
+ const condicao4 = !(booleano2 && booleano3) || !(booleano1 && booleano3) 
+ const condicao5 = !(booleano1) && !(booleano3) || (!booleano4 && booleano3 && booleano3)
+
+arrayBooleanos.push(condicao1, condicao2, condicao3, condicao4, condicao5)
+return arrayBooleanos
+
 }
 
 // EXERCÍCIO 07
@@ -193,8 +206,13 @@ return arrayDePessoas.filter(adolescentes =>{
 
 // EXERCÍCIO 17A
 function multiplicaArrayPor2(array) {
-
+  let listaArrayMultiplicada = []
+  for(let valor of array){
+ listaArrayMultiplicada.push(valor * 2)
+    }
+  return listaArrayMultiplicada
 }
+
 
 // EXERCÍCIO 17B
 function multiplicaArrayPor2S(array) {
