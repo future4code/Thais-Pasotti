@@ -18,8 +18,6 @@ function retornaNumerosParesElevadosADois(array) {
   return listaNumerosParesAdois
 }
 
-retornaNumerosParesElevadosADois()
-
 // EXERCÍCIO 03
 function retornaNumerosPares(array) {
   let listaDeNumerosPares = []
@@ -30,7 +28,6 @@ function retornaNumerosPares(array) {
   }
   return listaDeNumerosPares
 }
-retornaNumerosPares()
 
 // EXERCÍCIO 04
 function retornaMaiorNumero(array) {
@@ -42,16 +39,11 @@ function retornaMaiorNumero(array) {
 function retornaQuantidadeElementos(array) {
 return array.length
 }
-retornaQuantidadeElementos()
 
 // EXERCÍCIO 06
 function retornaExpressoesBooleanas() {
-  const booleano1 = true
-  const booleano2 = false
-  const booleano3 = !booleano2 
-  const booleano4 = !booleano3
-
-
+const respostas = [false, false, true, true, true]
+return respostas
 }
 
 // EXERCÍCIO 07
@@ -71,12 +63,6 @@ function checaTriangulo(a, b, c) {
 
 // EXERCÍCIO 09
 function comparaDoisNumeros(num1, num2) {
-  // Formato do objeto a ser retornado:
-  // {
-  //   maiorNumero: X,
-  //   maiorDivisivelPorMenor: Y,
-  //   diferenca: Z
-  // }
 }
 
 // EXERCÍCIO 10
@@ -106,8 +92,8 @@ function criaRetangulo(lado1, lado2) {
 
 // EXERCÍCIO 15
 function anonimizaPessoa(pessoa) {
-
 }
+
 
 // EXERCÍCIO 16A
 function maioresDe18(arrayDePessoas) {
