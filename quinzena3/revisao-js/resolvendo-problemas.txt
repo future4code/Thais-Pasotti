@@ -1,0 +1,31 @@
+Quais são os 7 passos fundamentais para a resolução de problemas e como eles podem nos ajudar a solucionar nossos desafios de programação?
+
+Os sete passos fundamentais para a resolução de problemas de código de programação são:
+1. Ter atenção no enunciado:
+Perguntar o que o código deve fazer, identificar informações únicas que farão a diferença.
+
+2. Retirar informações relevantes:
+Separar palavras chaves, como nome de variáveis. Verbos criarão funções. Procurar por condições que se tornarão valores lógicos, booleanos.
+Identificar por exemplo se é uma variável composta por outras variáveis, ou se será uma lista, por exemplo.
+
+3. Pensar entradas e saídas:
+Como e quais dados serão recebidos? Qual(is) devem ser as possíveis respostas (formato) código?
+Criar uma função com as entradas e saídas pensadas. Consigo a partir daqui criar testes manuais para meu código.
+
+4. Fazer um esquema visual:
+Criar exemplos de situações antes, montar diagramas com a lógica do código e pensar nos possíveis cenários e colocar inputs e outputs.
+Fluxograma, bullet points, ser capaz de explicar passo a passo o que fazer no próprio idioma para depois no JS.
+
+5. Criar "código feio":
+Colocar no papel as possíveis soluções pensadas, escolher as melhores soluções e testar cada uma delas até obter
+a resposta desejada.
+
+6. Testar força-bruta:
+Solução óbvia e pouco "performática", escrever o programa no nosso idioma e depois para a linguagem desejada.
+
+7. Refatorar:
+Dar bons nomes para as variáveis e funções, separar as funções de cada elemento e começar com as etapas principais.
+
+Eles nos ajudam a implementar um planejamento mais conciso, tanto no reconhecimento dos 
+problemas a serem resolvidos, quanto no reconhecimento da implementação de quais estratégias
+serão utilizadas para resolver esses problemas.
