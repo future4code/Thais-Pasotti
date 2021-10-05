@@ -63,6 +63,7 @@ function checaTriangulo(a, b, c) {
 
 // EXERCÍCIO 09
 function comparaDoisNumeros(num1, num2) {
+  
 }
 
 // EXERCÍCIO 10
@@ -98,7 +99,10 @@ function criaRetangulo(lado1, lado2) {
 
 // EXERCÍCIO 15
 function anonimizaPessoa(pessoa) {
+  
+pessoa.nome = "ANÔNIMO"
 
+return pessoa
 }
 
 
