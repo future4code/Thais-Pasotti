@@ -31,8 +31,16 @@ function retornaNumerosPares(array) {
 
 // EXERCÍCIO 04
 function retornaMaiorNumero(array) {
-  return Math.max.apply(null, array)
+  let maiorNumero = 0
+  for (const i of array) {
+    if (i > maiorNumero) {
+      maiorNumero = i
+    }
+  }
+  return maiorNumero
 }
+// resolução com Math: return Math.max.apply(null, array)
+
 
 
 // EXERCÍCIO 05
@@ -95,7 +103,8 @@ return objeto
 
 // EXERCÍCIO 10
 function segundoMaiorEMenor(array) {
-
+const novaLista = ordenaArray(array)
+return [novaLista[novaLista.length -2], novaLista[1]]
 }
 
 // EXERCÍCIO 11
