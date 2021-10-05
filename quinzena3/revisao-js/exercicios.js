@@ -48,7 +48,13 @@ return respostas
 
 // EXERCÍCIO 07
 function retornaNNumerosPares(n) {
+const nPrimeirosPares = []
 
+  for (let i = 0; i < n; i++) {
+    nPrimeirosPares.push(i * 2)
+  }
+
+  return nPrimeirosPares
 }
 
 // EXERCÍCIO 08
@@ -76,6 +82,7 @@ function ordenaArray(array) {
 let tamanho = array.length
 for (let i = 0; i < tamanho; i++) {
   for (let j = 0; j < tamanho; j++){
+
     if(array[j] > array[j + 1]){
     let tmp = array[j]
     array[j] = array[j+1]
