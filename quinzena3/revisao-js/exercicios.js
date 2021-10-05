@@ -184,7 +184,11 @@ for(let adulto of arrayDePessoas) {
 
 // EXERCÍCIO 16B
 function menoresDe18(arrayDePessoas) {
-
+return arrayDePessoas.filter(adolescentes =>{
+  return(
+    adolescentes.idade < 18
+  )
+})
 }
 
 // EXERCÍCIO 17A
