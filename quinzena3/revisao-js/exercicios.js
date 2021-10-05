@@ -69,7 +69,28 @@ function checaTriangulo(a, b, c) {
 
 // EXERCÍCIO 09
 function comparaDoisNumeros(num1, num2) {
-  
+  let menorNumero
+  let n1
+  let n2
+  let n3  
+if (num1 > num2){
+  n1 = num1
+  menorNumero = num2
+} else {
+  n1 = num2
+  menorNumero = num1
+}
+
+n2 = n1 % menorNumero === 0 
+n3 = n1 - menorNumero
+
+let objeto = {
+  maiorNumero: n1,
+  maiorDivisivelPorMenor: n2,
+  diferenca: n3
+}
+return objeto
+
 }
 
 // EXERCÍCIO 10
